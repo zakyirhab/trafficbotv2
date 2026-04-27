@@ -65,9 +65,45 @@ export class BehaviorService {
     engine: BrowserEngine, 
     viewport: { width: number, height: number }
   ): Promise<void> {
+    const startX = Math.floor(Math.random() * viewport.width);
+    const startY = Math.floor(Math.random() * viewport.height);
     const targetX = Math.floor(Math.random() * viewport.width);
     const targetY = Math.floor(Math.random() * viewport.height);
-    logger.debug(`Simulating mouse move to: ${targetX}, ${targetY}`);
-    await engine.mouseMove(targetX, targetY);
+    
+    logger.debug(`Simulating human-like mouse move from (${startX}, ${startY}) to (${targetX}, ${targetY})`);
+    
+    // Use bezier curve for natural movement
+    await this.bezierMouseMove(engine, startX, startY, targetX, targetY);
+  }
+
+  /**
+   * Simulates human-like mouse movement using bezier curve
+   */
+  private static async bezierMouseMove(
+    engine: BrowserEngine,
+    startX: number,
+    startY: number,
+    endX: number,
+    endY: number
+  ): Promise<void> {
+    const steps = 20 + Math.floor(Math.random() * 30); // 20-50 steps for smoothness
+    const duration = 500 + Math.floor(Math.random() * 1000); // 500-1500ms total duration
+    
+    for (let i = 0; i <= steps; i++) {
+      const t = i / steps;
+      
+      // Quadratic bezier curve with random control point
+      const controlX = (startX + endX) / 2 + (Math.random() - 0.5) * 100;
+      const controlY = (startY + endY) / 2 + (Math.random() - 0.5) * 100;
+      
+      const x = Math.pow(1 - t, 2) * startX + 2 * (1 - t) * t * controlX + Math.pow(t, 2) * endX;
+      const y = Math.pow(1 - t, 2) * startY + 2 * (1 - t) * t * controlY + Math.pow(t, 2) * endY;
+      
+      await engine.mouseMove(Math.round(x), Math.round(y));
+      
+      // Variable step delay for natural feel
+      const stepDelay = (duration / steps) + (Math.random() - 0.5) * 50;
+      await engine.wait(Math.max(10, stepDelay));
+    }
   }
 }

@@ -23,6 +23,7 @@ const ConfigSchema = z.object({
   BOT_ROLE: z.enum(['producer', 'worker', 'both']).default('both'),
   ORGANIC_SEARCH: z.preprocess((val) => val === 'true', z.boolean()).default(false),
   SEARCH_KEYWORDS: z.preprocess((val) => (val ? String(val).split(',') : []), z.array(z.string())).default([]),
+  MANUAL_PROXIES: z.preprocess((val) => (val ? String(val).split(',').map((proxy: string) => proxy.trim()).filter(Boolean) : []), z.array(z.string())).default([]),
   REFERRER_POOL: z.preprocess((val) => (val ? String(val).split(',') : []), z.array(z.string())).default([]),
   MATCH_GEOLOCATION: z.preprocess((val) => val === 'true', z.boolean()).default(false),
   SEARCH_TARGET_TYPE: z.enum(['url', 'contains', 'text']).default('url'),

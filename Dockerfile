@@ -1,38 +1,36 @@
 # Stage 1: Build
 FROM node:18-slim AS builder
-
 WORKDIR /app
-
-# Install dependencies for build
 COPY package*.json ./
-# Tell puppeteer to skip browser download during npm install in build stage
-# because we will use the one provided by the base image or install it specifically
-RUN PUPPETEER_SKIP_DOWNLOAD=true npm install
-
-# Copy source and build
+RUN npm install
 COPY . .
 RUN npm run build
 
 # Stage 2: Runtime
 FROM ghcr.io/puppeteer/puppeteer:latest AS runtime
-
+USER root
 WORKDIR /app
 
-# Copy built assets
-COPY --from=builder /app/dist ./dist
-COPY --from=builder /app/package*.json ./
-COPY --from=builder /app/useragent ./useragent
+# 1. Copy dulu semua file hasil build dari builder ke runtime
+# Ini harus dilakukan DI AWAL agar tidak menimpa folder .cache nanti
+COPY --from=builder /app /app
 
-# Install production dependencies only
-RUN npm install --omit=dev
+# 2. Set environment folder cache
+ENV PUPPETEER_CACHE_DIR=/app/.cache/puppeteer
 
-# Environment setup
-ENV NODE_ENV=production
-ENV LOG_LEVEL=info
+# 3. Install browser (Jalankan SETELAH copy file aplikasi)
+# Kita hapus folder cache lama dulu buat jaga-jaga, baru install fresh
+RUN rm -rf /app/.cache/puppeteer && \
+    mkdir -p /app/.cache/puppeteer && \
+    npx puppeteer browsers install chrome --path /app/.cache/puppeteer
 
-# Healthcheck (Simplified)
-HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
-  CMD node -e "require('fs').existsSync('./dist/main.js') || process.exit(1)"
+# 4. Set Permission agar user pptruser bisa eksekusi
+RUN chown -R pptruser:pptruser /app
 
-# Entrypoint
+# 5. HAPUS ENV EXECUTABLE_PATH YANG MANUAL! 
+# Biar Puppeteer cari sendiri di folder cache yang kita set tadi.
+# ENV PUPPETEER_EXECUTABLE_PATH="..." <--- HAPUS BARIS INI
+
+USER pptruser
+
 ENTRYPOINT ["node", "dist/main.js"]
