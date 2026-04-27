@@ -1,0 +1,28 @@
+{"error":"net::ERR_TIMED_OUT at https://bot.sannysoft.com","level":"error","message":"❌ Mission Failed","service":"trafficbot","timestamp":"2026-04-27T14:08:15.885Z"}
+{"error":"net::ERR_TIMED_OUT at https://bot.sannysoft.com","level":"error","message":"❌ Mission Failed","service":"trafficbot","timestamp":"2026-04-27T14:08:28.754Z"}
+{"error":"net::ERR_TIMED_OUT at https://bot.sannysoft.com","level":"error","message":"❌ Mission Failed","service":"trafficbot","timestamp":"2026-04-27T14:08:43.678Z"}
+{"error":"net::ERR_TIMED_OUT at https://bot.sannysoft.com","level":"error","message":"❌ Mission Failed","service":"trafficbot","timestamp":"2026-04-27T14:08:54.663Z"}
+{"error":"net::ERR_TIMED_OUT at https://httpbin.org/ip","level":"error","message":"❌ Mission Failed","service":"trafficbot","timestamp":"2026-04-27T14:11:32.458Z"}
+{"error":"net::ERR_TIMED_OUT at https://httpbin.org/ip","level":"error","message":"❌ Mission Failed","service":"trafficbot","timestamp":"2026-04-27T14:11:56.474Z"}
+{"error":"net::ERR_TIMED_OUT at https://httpbin.org/ip","level":"error","message":"❌ Mission Failed","service":"trafficbot","timestamp":"2026-04-27T14:15:11.609Z"}
+{"error":"net::ERR_TIMED_OUT at https://httpbin.org/ip","level":"error","message":"❌ Mission Failed","service":"trafficbot","timestamp":"2026-04-27T14:15:30.918Z"}
+{"error":"net::ERR_TIMED_OUT at https://httpbin.org/ip","level":"error","message":"❌ Mission Failed","service":"trafficbot","timestamp":"2026-04-27T14:15:52.716Z"}
+{"error":"net::ERR_TIMED_OUT at https://example.com","level":"error","message":"❌ Mission Failed","service":"trafficbot","timestamp":"2026-04-27T14:25:29.100Z"}
+{"error":"net::ERR_TIMED_OUT at https://example.com","level":"error","message":"❌ Mission Failed","service":"trafficbot","timestamp":"2026-04-27T14:25:54.227Z"}
+{"error":"net::ERR_PROXY_CONNECTION_FAILED at https://example.com","level":"error","message":"❌ Mission Failed","service":"trafficbot","timestamp":"2026-04-27T14:41:10.835Z"}
+{"error":"net::ERR_PROXY_CONNECTION_FAILED at https://example.com","level":"error","message":"❌ Mission Failed","service":"trafficbot","timestamp":"2026-04-27T14:41:57.993Z"}
+{"error":"net::ERR_PROXY_CONNECTION_FAILED at https://example.com","level":"error","message":"❌ Mission Failed","service":"trafficbot","timestamp":"2026-04-27T14:42:20.618Z"}
+{"error":"net::ERR_PROXY_CONNECTION_FAILED at https://example.com","level":"error","message":"❌ Mission Failed","service":"trafficbot","timestamp":"2026-04-27T14:43:11.792Z"}
+{"error":"Navigating frame was detached","level":"error","message":"❌ Mission Failed","service":"trafficbot","timestamp":"2026-04-27T14:43:20.372Z"}
+{"error":"net::ERR_PROXY_CONNECTION_FAILED at https://example.com","level":"error","message":"❌ Mission Failed","service":"trafficbot","timestamp":"2026-04-27T14:48:01.545Z"}
+{"error":"net::ERR_TIMED_OUT at https://example.com","level":"error","message":"❌ Mission Failed","service":"trafficbot","timestamp":"2026-04-27T14:53:22.004Z"}
+{"error":"net::ERR_TIMED_OUT at https://example.com","level":"error","message":"❌ Mission Failed","service":"trafficbot","timestamp":"2026-04-27T14:54:14.011Z"}
+{"error":"Protocol error (Input.dispatchMouseEvent): Session closed. Most likely the page has been closed.","level":"error","message":"❌ Mission Failed","service":"trafficbot","timestamp":"2026-04-27T14:58:37.672Z"}
+{"error":"net::ERR_TUNNEL_CONNECTION_FAILED at https://fingerprintjs.github.io/fingerprintjs/","level":"error","message":"❌ Mission Failed","service":"trafficbot","timestamp":"2026-04-27T15:24:11.473Z"}
+{"error":"net::ERR_TUNNEL_CONNECTION_FAILED at https://fingerprintjs.github.io/fingerprintjs/","level":"error","message":"❌ Mission Failed","service":"trafficbot","timestamp":"2026-04-27T15:24:58.763Z"}
+{"error":"net::ERR_TUNNEL_CONNECTION_FAILED at https://fingerprintjs.github.io/fingerprintjs/","level":"error","message":"❌ Mission Failed","service":"trafficbot","timestamp":"2026-04-27T15:25:30.573Z"}
+{"error":"net::ERR_TUNNEL_CONNECTION_FAILED at https://qr.ptsuparmatbk.com/blog/","level":"error","message":"❌ Mission Failed","service":"trafficbot","timestamp":"2026-04-27T15:26:26.835Z"}
+{"error":"net::ERR_TUNNEL_CONNECTION_FAILED at https://qr.ptsuparmatbk.com/blog/","level":"error","message":"❌ Mission Failed","service":"trafficbot","timestamp":"2026-04-27T15:33:31.879Z"}
+{"error":"net::ERR_TUNNEL_CONNECTION_FAILED at https://qr.ptsuparmatbk.com/blog/","level":"error","message":"❌ Mission Failed","service":"trafficbot","timestamp":"2026-04-27T15:35:03.318Z"}
+{"error":"net::ERR_TUNNEL_CONNECTION_FAILED at https://example.com","level":"error","message":"❌ Mission Failed","service":"trafficbot","timestamp":"2026-04-27T15:40:28.270Z"}
+{"error":"net::ERR_TUNNEL_CONNECTION_FAILED at https://example.com","level":"error","message":"❌ Mission Failed","service":"trafficbot","timestamp":"2026-04-27T15:42:19.524Z"}

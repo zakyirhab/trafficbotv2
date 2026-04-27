@@ -40,6 +40,9 @@ export class TrafficOrchestrator {
       const metrics = MetricsService.getInstance();
       metrics.trackSessionStart();
 
+      // Generate deterministic seed from session ID for consistent fingerprints
+      const seed = options.seed || this.generateSeedFromSessionId(config.id);
+
       await this.engine.init({
         userAgent: config.userAgent,
         viewport: config.viewport,
@@ -47,8 +50,19 @@ export class TrafficOrchestrator {
         userDataDir: config.userDataDir,
         headless: options.headless,
         platform: options.platform,
-        fingerprintScript: options.fingerprintScript
+        fingerprintScript: options.fingerprintScript,
+        seed,
       });
+
+      if (Config.TRAFFIC_MODE === 'direct') {
+        const targetUrl = Config.DEFAULT_URL || session.config.url;
+        logger.info(`Direct mode: navigating to ${targetUrl}`);
+        await this.engine.navigate(targetUrl);
+        // Diam saja, jangan scroll. Biarkan halaman terbuka untuk verifikasi manual.
+        logger.info('✅ Direct mode: page loaded. Waiting for 10 seconds...');
+        await this.engine.wait(10000);
+        return;
+      }
 
       if ((options as any).latitude && (options as any).longitude) {
         await (this.engine as any).setGeolocation((options as any).latitude, (options as any).longitude);
@@ -93,6 +107,17 @@ export class TrafficOrchestrator {
     } finally {
       await this.engine.close();
     }
+  }
+
+  private generateSeedFromSessionId(sessionId: string): number {
+    // Convert session ID to deterministic seed
+    let hash = 0;
+    for (let i = 0; i < sessionId.length; i++) {
+      const char = sessionId.charCodeAt(i);
+      hash = ((hash << 5) - hash) + char;
+      hash = hash & hash; // Convert to 32bit integer
+    }
+    return Math.abs(hash);
   }
 
   private async clickSafeLinkOnly(): Promise<boolean> {

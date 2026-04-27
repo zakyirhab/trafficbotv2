@@ -13,6 +13,7 @@ export interface BrowserOptions {
   };
   platform?: string;
   fingerprintScript?: string;
+  seed?: number; // Optional seed for deterministic device profile generation
 }
 
 export interface BrowserEngine {

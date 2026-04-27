@@ -30,6 +30,7 @@ const ConfigSchema = z.object({
   SEARCH_TARGET_VALUE: z.string().optional(),
   SEARCH_PAGES_LIMIT: z.coerce.number().min(1).max(10).default(1),
   SEARCH_ENGINE: z.enum(['google', 'bing', 'duckduckgo', 'random']).default('google'),
+  TRAFFIC_MODE: z.enum(['seo', 'direct']).default('seo'),
 });
 
 export const Config = ConfigSchema.parse(process.env);

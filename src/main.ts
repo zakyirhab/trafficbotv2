@@ -1,3 +1,5 @@
+import dotenv from 'dotenv';
+dotenv.config();
 import { TrafficOrchestrator } from './application/traffic/TrafficOrchestrator';
 import { PuppeteerStealthEngine } from './infrastructure/browser/PuppeteerStealthEngine';
 import { Session } from './domain/entities/Session';
@@ -85,10 +87,13 @@ async function bootstrap() {
       const engine = new PuppeteerStealthEngine();
       const orchestrator = new TrafficOrchestrator(engine);
 
+      // ---- PERBAIKAN: buat instance FingerprintService & panggil generate() ----
       const { FingerprintService } = require('./infrastructure/browser/FingerprintService');
-      
+      const fingerprintService = new FingerprintService();
+      const fingerprint = fingerprintService.generate();
+
       for (let i = 0; i < Config.MAX_SESSIONS; i++) {
-        const fingerprint = FingerprintService.generate();
+        // ---- HAPUS baris const fingerprint = FingerprintService.generate(); ----
         await orchestrator.run(new Session({
           id: `local-${i}`,
           url: Config.DEFAULT_URL,
@@ -104,7 +109,7 @@ async function bootstrap() {
         }), {
           headless: Config.HEADLESS,
           platform: fingerprint.platform,
-          fingerprintScript: FingerprintService.getInjectionScript(fingerprint)
+          fingerprintScript: fingerprintService.getInjectionScript(fingerprint)
         });
       }
     } else {
@@ -128,7 +133,9 @@ async function bootstrap() {
   });
 }
 
-bootstrap().catch(err => {
+bootstrap().catch((err: any) => {
+  console.error('=== FATAL BOOTSTRAP ERROR ===');
+  console.error(err.stack || err.message || err);
   logger.error('Fatal crash during bootstrap', { err });
   process.exit(1);
 });

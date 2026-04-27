@@ -1,0 +1,251 @@
+{"env":"production","level":"info","message":"Initializing Veneno Traffic Bot v2 (Distributed)","redis":"redis://127.0.0.1:6379","role":"both","service":"trafficbot","timestamp":"2026-04-27T14:07:35.421Z"}
+{"level":"info","message":"QueueService initialized (Distributed mode potential)","redisUrl":"redis://127.0.0.1:6379","service":"trafficbot","timestamp":"2026-04-27T14:07:35.443Z"}
+{"level":"info","message":"Role: BOTH - Redis unavailable, falling back to local sequential execution","service":"trafficbot","timestamp":"2026-04-27T14:07:35.448Z"}
+{"id":"local-0","level":"info","message":"🚀 STARTING MISSION: Ninja SEO Strategy","service":"trafficbot","timestamp":"2026-04-27T14:07:35.452Z"}
+{"level":"info","message":"⏳ Waiting for 29162ms to randomize startup...","service":"trafficbot","timestamp":"2026-04-27T14:07:35.453Z"}
+{"level":"info","message":"Direct mode: navigating to https://bot.sannysoft.com","service":"trafficbot","timestamp":"2026-04-27T14:08:07.836Z"}
+{"error":"net::ERR_TIMED_OUT at https://bot.sannysoft.com","level":"error","message":"❌ Mission Failed","service":"trafficbot","timestamp":"2026-04-27T14:08:15.885Z"}
+{"id":"local-1","level":"info","message":"🚀 STARTING MISSION: Ninja SEO Strategy","service":"trafficbot","timestamp":"2026-04-27T14:08:16.258Z"}
+{"level":"info","message":"⏳ Waiting for 3681ms to randomize startup...","service":"trafficbot","timestamp":"2026-04-27T14:08:16.259Z"}
+{"level":"info","message":"Direct mode: navigating to https://bot.sannysoft.com","service":"trafficbot","timestamp":"2026-04-27T14:08:20.724Z"}
+{"error":"net::ERR_TIMED_OUT at https://bot.sannysoft.com","level":"error","message":"❌ Mission Failed","service":"trafficbot","timestamp":"2026-04-27T14:08:28.754Z"}
+{"id":"local-2","level":"info","message":"🚀 STARTING MISSION: Ninja SEO Strategy","service":"trafficbot","timestamp":"2026-04-27T14:08:29.017Z"}
+{"level":"info","message":"⏳ Waiting for 5721ms to randomize startup...","service":"trafficbot","timestamp":"2026-04-27T14:08:29.018Z"}
+{"level":"info","message":"Direct mode: navigating to https://bot.sannysoft.com","service":"trafficbot","timestamp":"2026-04-27T14:08:35.636Z"}
+{"error":"net::ERR_TIMED_OUT at https://bot.sannysoft.com","level":"error","message":"❌ Mission Failed","service":"trafficbot","timestamp":"2026-04-27T14:08:43.678Z"}
+{"id":"local-3","level":"info","message":"🚀 STARTING MISSION: Ninja SEO Strategy","service":"trafficbot","timestamp":"2026-04-27T14:08:44.183Z"}
+{"level":"info","message":"⏳ Waiting for 1494ms to randomize startup...","service":"trafficbot","timestamp":"2026-04-27T14:08:44.184Z"}
+{"level":"info","message":"Direct mode: navigating to https://bot.sannysoft.com","service":"trafficbot","timestamp":"2026-04-27T14:08:46.616Z"}
+{"error":"net::ERR_TIMED_OUT at https://bot.sannysoft.com","level":"error","message":"❌ Mission Failed","service":"trafficbot","timestamp":"2026-04-27T14:08:54.663Z"}
+{"id":"local-4","level":"info","message":"🚀 STARTING MISSION: Ninja SEO Strategy","service":"trafficbot","timestamp":"2026-04-27T14:08:55.145Z"}
+{"level":"info","message":"⏳ Waiting for 15669ms to randomize startup...","service":"trafficbot","timestamp":"2026-04-27T14:08:55.148Z"}
+{"env":"production","level":"info","message":"Initializing Veneno Traffic Bot v2 (Distributed)","redis":"redis://127.0.0.1:6379","role":"both","service":"trafficbot","timestamp":"2026-04-27T14:11:00.360Z"}
+{"level":"info","message":"QueueService initialized (Distributed mode potential)","redisUrl":"redis://127.0.0.1:6379","service":"trafficbot","timestamp":"2026-04-27T14:11:00.380Z"}
+{"level":"info","message":"Role: BOTH - Redis unavailable, falling back to local sequential execution","service":"trafficbot","timestamp":"2026-04-27T14:11:00.383Z"}
+{"id":"local-0","level":"info","message":"🚀 STARTING MISSION: Ninja SEO Strategy","service":"trafficbot","timestamp":"2026-04-27T14:11:00.387Z"}
+{"level":"info","message":"⏳ Waiting for 23023ms to randomize startup...","service":"trafficbot","timestamp":"2026-04-27T14:11:00.387Z"}
+{"level":"info","message":"Direct mode: navigating to https://httpbin.org/ip","service":"trafficbot","timestamp":"2026-04-27T14:11:24.414Z"}
+{"error":"net::ERR_TIMED_OUT at https://httpbin.org/ip","level":"error","message":"❌ Mission Failed","service":"trafficbot","timestamp":"2026-04-27T14:11:32.458Z"}
+{"id":"local-1","level":"info","message":"🚀 STARTING MISSION: Ninja SEO Strategy","service":"trafficbot","timestamp":"2026-04-27T14:11:32.819Z"}
+{"level":"info","message":"⏳ Waiting for 14804ms to randomize startup...","service":"trafficbot","timestamp":"2026-04-27T14:11:32.820Z"}
+{"level":"info","message":"Direct mode: navigating to https://httpbin.org/ip","service":"trafficbot","timestamp":"2026-04-27T14:11:48.434Z"}
+{"error":"net::ERR_TIMED_OUT at https://httpbin.org/ip","level":"error","message":"❌ Mission Failed","service":"trafficbot","timestamp":"2026-04-27T14:11:56.474Z"}
+{"id":"local-2","level":"info","message":"🚀 STARTING MISSION: Ninja SEO Strategy","service":"trafficbot","timestamp":"2026-04-27T14:11:56.803Z"}
+{"level":"info","message":"⏳ Waiting for 21669ms to randomize startup...","service":"trafficbot","timestamp":"2026-04-27T14:11:56.804Z"}
+{"level":"info","message":"Direct mode: navigating to https://httpbin.org/ip","service":"trafficbot","timestamp":"2026-04-27T14:12:19.257Z"}
+{"env":"production","level":"info","message":"Initializing Veneno Traffic Bot v2 (Distributed)","redis":"redis://127.0.0.1:6379","role":"both","service":"trafficbot","timestamp":"2026-04-27T14:13:19.397Z"}
+{"level":"info","message":"QueueService initialized (Distributed mode potential)","redisUrl":"redis://127.0.0.1:6379","service":"trafficbot","timestamp":"2026-04-27T14:13:19.409Z"}
+{"level":"info","message":"Role: BOTH - Redis unavailable, falling back to local sequential execution","service":"trafficbot","timestamp":"2026-04-27T14:13:19.413Z"}
+{"id":"local-0","level":"info","message":"🚀 STARTING MISSION: Ninja SEO Strategy","service":"trafficbot","timestamp":"2026-04-27T14:13:19.478Z"}
+{"level":"info","message":"⏳ Waiting for 28812ms to randomize startup...","service":"trafficbot","timestamp":"2026-04-27T14:13:19.480Z"}
+{"env":"production","level":"info","message":"Initializing Veneno Traffic Bot v2 (Distributed)","redis":"redis://127.0.0.1:6379","role":"both","service":"trafficbot","timestamp":"2026-04-27T14:14:47.406Z"}
+{"level":"info","message":"QueueService initialized (Distributed mode potential)","redisUrl":"redis://127.0.0.1:6379","service":"trafficbot","timestamp":"2026-04-27T14:14:47.436Z"}
+{"level":"info","message":"Role: BOTH - Redis unavailable, falling back to local sequential execution","service":"trafficbot","timestamp":"2026-04-27T14:14:47.446Z"}
+{"id":"local-0","level":"info","message":"🚀 STARTING MISSION: Ninja SEO Strategy","service":"trafficbot","timestamp":"2026-04-27T14:14:47.449Z"}
+{"level":"info","message":"⏳ Waiting for 14018ms to randomize startup...","service":"trafficbot","timestamp":"2026-04-27T14:14:47.453Z"}
+{"level":"info","message":"Direct mode: navigating to https://httpbin.org/ip","service":"trafficbot","timestamp":"2026-04-27T14:15:03.570Z"}
+{"error":"net::ERR_TIMED_OUT at https://httpbin.org/ip","level":"error","message":"❌ Mission Failed","service":"trafficbot","timestamp":"2026-04-27T14:15:11.609Z"}
+{"id":"local-1","level":"info","message":"🚀 STARTING MISSION: Ninja SEO Strategy","service":"trafficbot","timestamp":"2026-04-27T14:15:11.997Z"}
+{"level":"info","message":"⏳ Waiting for 10068ms to randomize startup...","service":"trafficbot","timestamp":"2026-04-27T14:15:12.002Z"}
+{"level":"info","message":"Direct mode: navigating to https://httpbin.org/ip","service":"trafficbot","timestamp":"2026-04-27T14:15:22.842Z"}
+{"error":"net::ERR_TIMED_OUT at https://httpbin.org/ip","level":"error","message":"❌ Mission Failed","service":"trafficbot","timestamp":"2026-04-27T14:15:30.918Z"}
+{"id":"local-2","level":"info","message":"🚀 STARTING MISSION: Ninja SEO Strategy","service":"trafficbot","timestamp":"2026-04-27T14:15:31.319Z"}
+{"level":"info","message":"⏳ Waiting for 12585ms to randomize startup...","service":"trafficbot","timestamp":"2026-04-27T14:15:31.320Z"}
+{"level":"info","message":"Direct mode: navigating to https://httpbin.org/ip","service":"trafficbot","timestamp":"2026-04-27T14:15:44.665Z"}
+{"error":"net::ERR_TIMED_OUT at https://httpbin.org/ip","level":"error","message":"❌ Mission Failed","service":"trafficbot","timestamp":"2026-04-27T14:15:52.716Z"}
+{"id":"local-3","level":"info","message":"🚀 STARTING MISSION: Ninja SEO Strategy","service":"trafficbot","timestamp":"2026-04-27T14:15:53.085Z"}
+{"level":"info","message":"⏳ Waiting for 19544ms to randomize startup...","service":"trafficbot","timestamp":"2026-04-27T14:15:53.086Z"}
+{"env":"production","level":"info","message":"Initializing Veneno Traffic Bot v2 (Distributed)","redis":"redis://127.0.0.1:6379","role":"both","service":"trafficbot","timestamp":"2026-04-27T14:24:57.080Z"}
+{"level":"info","message":"QueueService initialized (Distributed mode potential)","redisUrl":"redis://127.0.0.1:6379","service":"trafficbot","timestamp":"2026-04-27T14:24:57.087Z"}
+{"level":"info","message":"Role: BOTH - Redis unavailable, falling back to local sequential execution","service":"trafficbot","timestamp":"2026-04-27T14:24:57.089Z"}
+{"id":"local-0","level":"info","message":"🚀 STARTING MISSION: Ninja SEO Strategy","service":"trafficbot","timestamp":"2026-04-27T14:24:57.091Z"}
+{"level":"info","message":"⏳ Waiting for 12782ms to randomize startup...","service":"trafficbot","timestamp":"2026-04-27T14:24:57.091Z"}
+{"level":"info","message":"Direct mode: navigating to https://example.com","service":"trafficbot","timestamp":"2026-04-27T14:25:11.667Z"}
+{"error":"net::ERR_TIMED_OUT at https://example.com","level":"error","message":"❌ Mission Failed","service":"trafficbot","timestamp":"2026-04-27T14:25:29.100Z"}
+{"id":"local-1","level":"info","message":"🚀 STARTING MISSION: Ninja SEO Strategy","service":"trafficbot","timestamp":"2026-04-27T14:25:29.486Z"}
+{"level":"info","message":"⏳ Waiting for 16085ms to randomize startup...","service":"trafficbot","timestamp":"2026-04-27T14:25:29.487Z"}
+{"level":"info","message":"Direct mode: navigating to https://example.com","service":"trafficbot","timestamp":"2026-04-27T14:25:46.217Z"}
+{"error":"net::ERR_TIMED_OUT at https://example.com","level":"error","message":"❌ Mission Failed","service":"trafficbot","timestamp":"2026-04-27T14:25:54.227Z"}
+{"env":"production","level":"info","message":"Initializing Veneno Traffic Bot v2 (Distributed)","redis":"redis://127.0.0.1:6379","role":"both","service":"trafficbot","timestamp":"2026-04-27T14:40:20.114Z"}
+{"level":"info","message":"QueueService initialized (Distributed mode potential)","redisUrl":"redis://127.0.0.1:6379","service":"trafficbot","timestamp":"2026-04-27T14:40:20.136Z"}
+{"level":"info","message":"Role: BOTH - Redis unavailable, falling back to local sequential execution","service":"trafficbot","timestamp":"2026-04-27T14:40:20.139Z"}
+{"id":"local-0","level":"info","message":"🚀 STARTING MISSION: Ninja SEO Strategy","service":"trafficbot","timestamp":"2026-04-27T14:40:20.141Z"}
+{"level":"info","message":"⏳ Waiting for 27895ms to randomize startup...","service":"trafficbot","timestamp":"2026-04-27T14:40:20.142Z"}
+{"level":"info","message":"🔌 Proxy dari Litport Pool","proxy":"socks4://36.92.186.59:1080","service":"trafficbot","timestamp":"2026-04-27T14:40:49.182Z"}
+{"level":"info","message":"Direct mode: navigating to https://example.com","service":"trafficbot","timestamp":"2026-04-27T14:40:49.787Z"}
+{"error":"net::ERR_PROXY_CONNECTION_FAILED at https://example.com","level":"error","message":"❌ Mission Failed","service":"trafficbot","timestamp":"2026-04-27T14:41:10.835Z"}
+{"id":"local-1","level":"info","message":"🚀 STARTING MISSION: Ninja SEO Strategy","service":"trafficbot","timestamp":"2026-04-27T14:41:11.098Z"}
+{"level":"info","message":"⏳ Waiting for 25315ms to randomize startup...","service":"trafficbot","timestamp":"2026-04-27T14:41:11.099Z"}
+{"level":"info","message":"🔌 Proxy dari Litport Pool","proxy":"socks4://36.92.186.59:1080","service":"trafficbot","timestamp":"2026-04-27T14:41:36.418Z"}
+{"level":"info","message":"Direct mode: navigating to https://example.com","service":"trafficbot","timestamp":"2026-04-27T14:41:36.952Z"}
+{"error":"net::ERR_PROXY_CONNECTION_FAILED at https://example.com","level":"error","message":"❌ Mission Failed","service":"trafficbot","timestamp":"2026-04-27T14:41:57.993Z"}
+{"id":"local-2","level":"info","message":"🚀 STARTING MISSION: Ninja SEO Strategy","service":"trafficbot","timestamp":"2026-04-27T14:41:58.332Z"}
+{"level":"info","message":"⏳ Waiting for 528ms to randomize startup...","service":"trafficbot","timestamp":"2026-04-27T14:41:58.333Z"}
+{"level":"info","message":"🔌 Proxy dari Litport Pool","proxy":"socks4://36.92.186.59:1080","service":"trafficbot","timestamp":"2026-04-27T14:41:58.865Z"}
+{"level":"info","message":"Direct mode: navigating to https://example.com","service":"trafficbot","timestamp":"2026-04-27T14:41:59.583Z"}
+{"error":"net::ERR_PROXY_CONNECTION_FAILED at https://example.com","level":"error","message":"❌ Mission Failed","service":"trafficbot","timestamp":"2026-04-27T14:42:20.618Z"}
+{"id":"local-3","level":"info","message":"🚀 STARTING MISSION: Ninja SEO Strategy","service":"trafficbot","timestamp":"2026-04-27T14:42:20.953Z"}
+{"level":"info","message":"⏳ Waiting for 29176ms to randomize startup...","service":"trafficbot","timestamp":"2026-04-27T14:42:20.954Z"}
+{"level":"info","message":"🔌 Proxy dari Litport Pool","proxy":"socks4://36.92.186.59:1080","service":"trafficbot","timestamp":"2026-04-27T14:42:50.135Z"}
+{"level":"info","message":"Direct mode: navigating to https://example.com","service":"trafficbot","timestamp":"2026-04-27T14:42:50.736Z"}
+{"error":"net::ERR_PROXY_CONNECTION_FAILED at https://example.com","level":"error","message":"❌ Mission Failed","service":"trafficbot","timestamp":"2026-04-27T14:43:11.792Z"}
+{"id":"local-4","level":"info","message":"🚀 STARTING MISSION: Ninja SEO Strategy","service":"trafficbot","timestamp":"2026-04-27T14:43:12.129Z"}
+{"level":"info","message":"⏳ Waiting for 4299ms to randomize startup...","service":"trafficbot","timestamp":"2026-04-27T14:43:12.129Z"}
+{"level":"info","message":"🔌 Proxy dari Litport Pool","proxy":"socks4://36.92.186.59:1080","service":"trafficbot","timestamp":"2026-04-27T14:43:16.435Z"}
+{"level":"info","message":"Direct mode: navigating to https://example.com","service":"trafficbot","timestamp":"2026-04-27T14:43:17.126Z"}
+{"error":"Navigating frame was detached","level":"error","message":"❌ Mission Failed","service":"trafficbot","timestamp":"2026-04-27T14:43:20.372Z"}
+{"id":"local-5","level":"info","message":"🚀 STARTING MISSION: Ninja SEO Strategy","service":"trafficbot","timestamp":"2026-04-27T14:43:20.695Z"}
+{"level":"info","message":"⏳ Waiting for 26396ms to randomize startup...","service":"trafficbot","timestamp":"2026-04-27T14:43:20.696Z"}
+{"env":"production","level":"info","message":"Initializing Veneno Traffic Bot v2 (Distributed)","redis":"redis://127.0.0.1:6379","role":"both","service":"trafficbot","timestamp":"2026-04-27T14:47:27.925Z"}
+{"level":"info","message":"QueueService initialized (Distributed mode potential)","redisUrl":"redis://127.0.0.1:6379","service":"trafficbot","timestamp":"2026-04-27T14:47:27.930Z"}
+{"level":"info","message":"Role: BOTH - Redis unavailable, falling back to local sequential execution","service":"trafficbot","timestamp":"2026-04-27T14:47:27.937Z"}
+{"id":"local-0","level":"info","message":"🚀 STARTING MISSION: Ninja SEO Strategy","service":"trafficbot","timestamp":"2026-04-27T14:47:27.941Z"}
+{"level":"info","message":"⏳ Waiting for 8771ms to randomize startup...","service":"trafficbot","timestamp":"2026-04-27T14:47:27.942Z"}
+{"level":"info","message":"🔌 Proxy dari Litport Pool","proxy":"socks4://36.92.186.59:1080","service":"trafficbot","timestamp":"2026-04-27T14:47:39.540Z"}
+{"level":"info","message":"Direct mode: navigating to https://example.com","service":"trafficbot","timestamp":"2026-04-27T14:47:40.489Z"}
+{"error":"net::ERR_PROXY_CONNECTION_FAILED at https://example.com","level":"error","message":"❌ Mission Failed","service":"trafficbot","timestamp":"2026-04-27T14:48:01.545Z"}
+{"id":"local-1","level":"info","message":"🚀 STARTING MISSION: Ninja SEO Strategy","service":"trafficbot","timestamp":"2026-04-27T14:48:01.982Z"}
+{"level":"info","message":"⏳ Waiting for 28515ms to randomize startup...","service":"trafficbot","timestamp":"2026-04-27T14:48:01.983Z"}
+{"env":"production","level":"info","message":"Initializing Veneno Traffic Bot v2 (Distributed)","redis":"redis://127.0.0.1:6379","role":"both","service":"trafficbot","timestamp":"2026-04-27T14:53:09.590Z"}
+{"level":"info","message":"QueueService initialized (Distributed mode potential)","redisUrl":"redis://127.0.0.1:6379","service":"trafficbot","timestamp":"2026-04-27T14:53:09.601Z"}
+{"level":"info","message":"Role: BOTH - Redis unavailable, falling back to local sequential execution","service":"trafficbot","timestamp":"2026-04-27T14:53:09.606Z"}
+{"id":"local-0","level":"info","message":"🚀 STARTING MISSION: Ninja SEO Strategy","service":"trafficbot","timestamp":"2026-04-27T14:53:09.608Z"}
+{"level":"info","message":"⏳ Waiting for 2627ms to randomize startup...","service":"trafficbot","timestamp":"2026-04-27T14:53:09.608Z"}
+{"level":"info","message":"🔌 Proxy dari ProxyService (fallback)","proxy":"http://163.61.90.237:3125","service":"trafficbot","timestamp":"2026-04-27T14:53:13.059Z"}
+{"level":"info","message":"Direct mode: navigating to https://example.com","service":"trafficbot","timestamp":"2026-04-27T14:53:13.975Z"}
+{"error":"net::ERR_TIMED_OUT at https://example.com","level":"error","message":"❌ Mission Failed","service":"trafficbot","timestamp":"2026-04-27T14:53:22.004Z"}
+{"env":"production","level":"info","message":"Initializing Veneno Traffic Bot v2 (Distributed)","redis":"redis://127.0.0.1:6379","role":"both","service":"trafficbot","timestamp":"2026-04-27T14:53:39.431Z"}
+{"level":"info","message":"QueueService initialized (Distributed mode potential)","redisUrl":"redis://127.0.0.1:6379","service":"trafficbot","timestamp":"2026-04-27T14:53:39.437Z"}
+{"level":"info","message":"Role: BOTH - Redis unavailable, falling back to local sequential execution","service":"trafficbot","timestamp":"2026-04-27T14:53:39.440Z"}
+{"id":"local-0","level":"info","message":"🚀 STARTING MISSION: Ninja SEO Strategy","service":"trafficbot","timestamp":"2026-04-27T14:53:39.441Z"}
+{"level":"info","message":"⏳ Waiting for 25580ms to randomize startup...","service":"trafficbot","timestamp":"2026-04-27T14:53:39.442Z"}
+{"level":"info","message":"🔌 Proxy dari ProxyService (fallback)","proxy":"http://103.176.97.108:3128","service":"trafficbot","timestamp":"2026-04-27T14:54:05.172Z"}
+{"level":"info","message":"Direct mode: navigating to https://example.com","service":"trafficbot","timestamp":"2026-04-27T14:54:05.986Z"}
+{"error":"net::ERR_TIMED_OUT at https://example.com","level":"error","message":"❌ Mission Failed","service":"trafficbot","timestamp":"2026-04-27T14:54:14.011Z"}
+{"env":"production","level":"info","message":"Initializing Veneno Traffic Bot v2 (Distributed)","redis":"redis://127.0.0.1:6379","role":"both","service":"trafficbot","timestamp":"2026-04-27T14:56:51.812Z"}
+{"level":"info","message":"QueueService initialized (Distributed mode potential)","redisUrl":"redis://127.0.0.1:6379","service":"trafficbot","timestamp":"2026-04-27T14:56:51.824Z"}
+{"level":"info","message":"Role: BOTH - Redis unavailable, falling back to local sequential execution","service":"trafficbot","timestamp":"2026-04-27T14:56:51.829Z"}
+{"id":"local-0","level":"info","message":"🚀 STARTING MISSION: Ninja SEO Strategy","service":"trafficbot","timestamp":"2026-04-27T14:56:51.831Z"}
+{"level":"info","message":"⏳ Waiting for 2549ms to randomize startup...","service":"trafficbot","timestamp":"2026-04-27T14:56:51.831Z"}
+{"level":"warn","message":"⚠️ Semua proxy dimatikan, koneksi langsung tanpa proxy.","service":"trafficbot","timestamp":"2026-04-27T14:56:54.388Z"}
+{"level":"info","message":"Direct mode: navigating to https://example.com","service":"trafficbot","timestamp":"2026-04-27T14:56:56.061Z"}
+{"error":"Protocol error (Input.dispatchMouseEvent): Session closed. Most likely the page has been closed.","level":"error","message":"❌ Mission Failed","service":"trafficbot","timestamp":"2026-04-27T14:58:37.672Z"}
+{"env":"production","level":"info","message":"Initializing Veneno Traffic Bot v2 (Distributed)","redis":"redis://127.0.0.1:6379","role":"both","service":"trafficbot","timestamp":"2026-04-27T15:08:09.978Z"}
+{"level":"info","message":"QueueService initialized (Distributed mode potential)","redisUrl":"redis://127.0.0.1:6379","service":"trafficbot","timestamp":"2026-04-27T15:08:09.986Z"}
+{"level":"info","message":"Role: BOTH - Redis unavailable, falling back to local sequential execution","service":"trafficbot","timestamp":"2026-04-27T15:08:09.989Z"}
+{"id":"local-0","level":"info","message":"🚀 STARTING MISSION: Ninja SEO Strategy","service":"trafficbot","timestamp":"2026-04-27T15:08:09.991Z"}
+{"level":"info","message":"⏳ Waiting for 16425ms to randomize startup...","service":"trafficbot","timestamp":"2026-04-27T15:08:09.991Z"}
+{"level":"warn","message":"⚠️ Semua proxy dimatikan, koneksi langsung tanpa proxy.","service":"trafficbot","timestamp":"2026-04-27T15:08:26.423Z"}
+{"level":"info","message":"Direct mode: navigating to https://qr.ptsuparmatbk.com/blog/","service":"trafficbot","timestamp":"2026-04-27T15:08:27.241Z"}
+{"env":"production","level":"info","message":"Initializing Veneno Traffic Bot v2 (Distributed)","redis":"redis://127.0.0.1:6379","role":"both","service":"trafficbot","timestamp":"2026-04-27T15:11:56.325Z"}
+{"level":"info","message":"QueueService initialized (Distributed mode potential)","redisUrl":"redis://127.0.0.1:6379","service":"trafficbot","timestamp":"2026-04-27T15:11:56.331Z"}
+{"level":"info","message":"Role: BOTH - Redis unavailable, falling back to local sequential execution","service":"trafficbot","timestamp":"2026-04-27T15:11:56.334Z"}
+{"id":"local-0","level":"info","message":"🚀 STARTING MISSION: Ninja SEO Strategy","service":"trafficbot","timestamp":"2026-04-27T15:11:56.336Z"}
+{"level":"info","message":"⏳ Waiting for 22161ms to randomize startup...","service":"trafficbot","timestamp":"2026-04-27T15:11:56.336Z"}
+{"level":"warn","message":"⚠️ Semua proxy dimatikan, koneksi langsung tanpa proxy.","service":"trafficbot","timestamp":"2026-04-27T15:12:18.503Z"}
+{"level":"info","message":"Direct mode: navigating to https://qr.ptsuparmatbk.com/blog/","service":"trafficbot","timestamp":"2026-04-27T15:12:19.275Z"}
+{"level":"info","message":"✅ Direct mode: page loaded. Waiting for 10 seconds...","service":"trafficbot","timestamp":"2026-04-27T15:12:21.783Z"}
+{"env":"production","level":"info","message":"Initializing Veneno Traffic Bot v2 (Distributed)","redis":"redis://127.0.0.1:6379","role":"both","service":"trafficbot","timestamp":"2026-04-27T15:13:16.838Z"}
+{"level":"info","message":"QueueService initialized (Distributed mode potential)","redisUrl":"redis://127.0.0.1:6379","service":"trafficbot","timestamp":"2026-04-27T15:13:16.844Z"}
+{"level":"info","message":"Role: BOTH - Redis unavailable, falling back to local sequential execution","service":"trafficbot","timestamp":"2026-04-27T15:13:16.846Z"}
+{"id":"local-0","level":"info","message":"🚀 STARTING MISSION: Ninja SEO Strategy","service":"trafficbot","timestamp":"2026-04-27T15:13:16.848Z"}
+{"level":"info","message":"⏳ Waiting for 13066ms to randomize startup...","service":"trafficbot","timestamp":"2026-04-27T15:13:16.849Z"}
+{"level":"warn","message":"⚠️ Semua proxy dimatikan, koneksi langsung tanpa proxy.","service":"trafficbot","timestamp":"2026-04-27T15:13:29.930Z"}
+{"level":"info","message":"Direct mode: navigating to https://qr.ptsuparmatbk.com/blog/","service":"trafficbot","timestamp":"2026-04-27T15:13:30.590Z"}
+{"level":"info","message":"✅ Direct mode: page loaded. Waiting for 10 seconds...","service":"trafficbot","timestamp":"2026-04-27T15:13:33.729Z"}
+{"env":"production","level":"info","message":"Initializing Veneno Traffic Bot v2 (Distributed)","redis":"redis://127.0.0.1:6379","role":"both","service":"trafficbot","timestamp":"2026-04-27T15:14:09.109Z"}
+{"level":"info","message":"QueueService initialized (Distributed mode potential)","redisUrl":"redis://127.0.0.1:6379","service":"trafficbot","timestamp":"2026-04-27T15:14:09.115Z"}
+{"level":"info","message":"Role: BOTH - Redis unavailable, falling back to local sequential execution","service":"trafficbot","timestamp":"2026-04-27T15:14:09.118Z"}
+{"id":"local-0","level":"info","message":"🚀 STARTING MISSION: Ninja SEO Strategy","service":"trafficbot","timestamp":"2026-04-27T15:14:09.120Z"}
+{"level":"info","message":"⏳ Waiting for 2801ms to randomize startup...","service":"trafficbot","timestamp":"2026-04-27T15:14:09.120Z"}
+{"level":"warn","message":"⚠️ Semua proxy dimatikan, koneksi langsung tanpa proxy.","service":"trafficbot","timestamp":"2026-04-27T15:14:11.936Z"}
+{"level":"info","message":"Direct mode: navigating to https://qr.ptsuparmatbk.com/blog/","service":"trafficbot","timestamp":"2026-04-27T15:14:12.770Z"}
+{"level":"info","message":"✅ Direct mode: page loaded. Waiting for 10 seconds...","service":"trafficbot","timestamp":"2026-04-27T15:14:16.244Z"}
+{"env":"production","level":"info","message":"Initializing Veneno Traffic Bot v2 (Distributed)","redis":"redis://127.0.0.1:6379","role":"both","service":"trafficbot","timestamp":"2026-04-27T15:15:35.009Z"}
+{"level":"info","message":"QueueService initialized (Distributed mode potential)","redisUrl":"redis://127.0.0.1:6379","service":"trafficbot","timestamp":"2026-04-27T15:15:35.014Z"}
+{"level":"info","message":"Role: BOTH - Redis unavailable, falling back to local sequential execution","service":"trafficbot","timestamp":"2026-04-27T15:15:35.017Z"}
+{"id":"local-0","level":"info","message":"🚀 STARTING MISSION: Ninja SEO Strategy","service":"trafficbot","timestamp":"2026-04-27T15:15:35.018Z"}
+{"level":"info","message":"⏳ Waiting for 27896ms to randomize startup...","service":"trafficbot","timestamp":"2026-04-27T15:15:35.019Z"}
+{"level":"warn","message":"⚠️ Semua proxy dimatikan, koneksi langsung tanpa proxy.","service":"trafficbot","timestamp":"2026-04-27T15:16:02.927Z"}
+{"level":"info","message":"Direct mode: navigating to https://fingerprintjs.github.io/fingerprintjs/","service":"trafficbot","timestamp":"2026-04-27T15:16:03.862Z"}
+{"level":"info","message":"✅ Direct mode: page loaded. Waiting for 10 seconds...","service":"trafficbot","timestamp":"2026-04-27T15:16:04.670Z"}
+{"env":"production","level":"info","message":"Initializing Veneno Traffic Bot v2 (Distributed)","redis":"redis://127.0.0.1:6379","role":"both","service":"trafficbot","timestamp":"2026-04-27T15:16:36.215Z"}
+{"level":"info","message":"QueueService initialized (Distributed mode potential)","redisUrl":"redis://127.0.0.1:6379","service":"trafficbot","timestamp":"2026-04-27T15:16:36.222Z"}
+{"level":"info","message":"Role: BOTH - Redis unavailable, falling back to local sequential execution","service":"trafficbot","timestamp":"2026-04-27T15:16:36.224Z"}
+{"id":"local-0","level":"info","message":"🚀 STARTING MISSION: Ninja SEO Strategy","service":"trafficbot","timestamp":"2026-04-27T15:16:36.225Z"}
+{"level":"info","message":"⏳ Waiting for 16308ms to randomize startup...","service":"trafficbot","timestamp":"2026-04-27T15:16:36.226Z"}
+{"level":"warn","message":"⚠️ Semua proxy dimatikan, koneksi langsung tanpa proxy.","service":"trafficbot","timestamp":"2026-04-27T15:16:52.550Z"}
+{"level":"info","message":"Direct mode: navigating to https://fingerprintjs.github.io/fingerprintjs/","service":"trafficbot","timestamp":"2026-04-27T15:16:53.214Z"}
+{"level":"info","message":"✅ Direct mode: page loaded. Waiting for 10 seconds...","service":"trafficbot","timestamp":"2026-04-27T15:16:53.431Z"}
+{"env":"production","level":"info","message":"Initializing Veneno Traffic Bot v2 (Distributed)","redis":"redis://127.0.0.1:6379","role":"both","service":"trafficbot","timestamp":"2026-04-27T15:24:07.551Z"}
+{"level":"info","message":"QueueService initialized (Distributed mode potential)","redisUrl":"redis://127.0.0.1:6379","service":"trafficbot","timestamp":"2026-04-27T15:24:07.560Z"}
+{"level":"info","message":"Role: BOTH - Redis unavailable, falling back to local sequential execution","service":"trafficbot","timestamp":"2026-04-27T15:24:07.562Z"}
+{"id":"local-0","level":"info","message":"🚀 STARTING MISSION: Ninja SEO Strategy","service":"trafficbot","timestamp":"2026-04-27T15:24:07.564Z"}
+{"level":"info","message":"⏳ Waiting for 995ms to randomize startup...","service":"trafficbot","timestamp":"2026-04-27T15:24:07.565Z"}
+{"level":"info","message":"🔍 Mencari proxy dari ProxyGather...","service":"trafficbot","timestamp":"2026-04-27T15:24:08.576Z"}
+{"level":"info","message":"🔌 Proxy dari ProxyGather","proxy":"http://101.132.222.120:80","service":"trafficbot","timestamp":"2026-04-27T15:24:09.871Z"}
+{"level":"info","message":"Direct mode: navigating to https://fingerprintjs.github.io/fingerprintjs/","service":"trafficbot","timestamp":"2026-04-27T15:24:10.614Z"}
+{"error":"net::ERR_TUNNEL_CONNECTION_FAILED at https://fingerprintjs.github.io/fingerprintjs/","level":"error","message":"❌ Mission Failed","service":"trafficbot","timestamp":"2026-04-27T15:24:11.473Z"}
+{"env":"production","level":"info","message":"Initializing Veneno Traffic Bot v2 (Distributed)","redis":"redis://127.0.0.1:6379","role":"both","service":"trafficbot","timestamp":"2026-04-27T15:24:39.353Z"}
+{"level":"info","message":"QueueService initialized (Distributed mode potential)","redisUrl":"redis://127.0.0.1:6379","service":"trafficbot","timestamp":"2026-04-27T15:24:39.359Z"}
+{"level":"info","message":"Role: BOTH - Redis unavailable, falling back to local sequential execution","service":"trafficbot","timestamp":"2026-04-27T15:24:39.361Z"}
+{"id":"local-0","level":"info","message":"🚀 STARTING MISSION: Ninja SEO Strategy","service":"trafficbot","timestamp":"2026-04-27T15:24:39.363Z"}
+{"level":"info","message":"⏳ Waiting for 17330ms to randomize startup...","service":"trafficbot","timestamp":"2026-04-27T15:24:39.363Z"}
+{"level":"info","message":"🔍 Mencari proxy dari ProxyGather...","service":"trafficbot","timestamp":"2026-04-27T15:24:56.697Z"}
+{"level":"info","message":"🔌 Proxy dari ProxyGather","proxy":"http://101.132.222.120:80","service":"trafficbot","timestamp":"2026-04-27T15:24:57.016Z"}
+{"level":"info","message":"Direct mode: navigating to https://fingerprintjs.github.io/fingerprintjs/","service":"trafficbot","timestamp":"2026-04-27T15:24:57.923Z"}
+{"error":"net::ERR_TUNNEL_CONNECTION_FAILED at https://fingerprintjs.github.io/fingerprintjs/","level":"error","message":"❌ Mission Failed","service":"trafficbot","timestamp":"2026-04-27T15:24:58.763Z"}
+{"env":"production","level":"info","message":"Initializing Veneno Traffic Bot v2 (Distributed)","redis":"redis://127.0.0.1:6379","role":"both","service":"trafficbot","timestamp":"2026-04-27T15:25:14.391Z"}
+{"level":"info","message":"QueueService initialized (Distributed mode potential)","redisUrl":"redis://127.0.0.1:6379","service":"trafficbot","timestamp":"2026-04-27T15:25:14.397Z"}
+{"level":"info","message":"Role: BOTH - Redis unavailable, falling back to local sequential execution","service":"trafficbot","timestamp":"2026-04-27T15:25:14.401Z"}
+{"id":"local-0","level":"info","message":"🚀 STARTING MISSION: Ninja SEO Strategy","service":"trafficbot","timestamp":"2026-04-27T15:25:14.405Z"}
+{"level":"info","message":"⏳ Waiting for 14415ms to randomize startup...","service":"trafficbot","timestamp":"2026-04-27T15:25:14.406Z"}
+{"level":"info","message":"🔍 Mencari proxy dari ProxyGather...","service":"trafficbot","timestamp":"2026-04-27T15:25:28.838Z"}
+{"level":"info","message":"🔌 Proxy dari ProxyGather","proxy":"http://101.132.222.120:80","service":"trafficbot","timestamp":"2026-04-27T15:25:29.083Z"}
+{"level":"info","message":"Direct mode: navigating to https://fingerprintjs.github.io/fingerprintjs/","service":"trafficbot","timestamp":"2026-04-27T15:25:29.754Z"}
+{"error":"net::ERR_TUNNEL_CONNECTION_FAILED at https://fingerprintjs.github.io/fingerprintjs/","level":"error","message":"❌ Mission Failed","service":"trafficbot","timestamp":"2026-04-27T15:25:30.573Z"}
+{"env":"production","level":"info","message":"Initializing Veneno Traffic Bot v2 (Distributed)","redis":"redis://127.0.0.1:6379","role":"both","service":"trafficbot","timestamp":"2026-04-27T15:26:21.170Z"}
+{"level":"info","message":"QueueService initialized (Distributed mode potential)","redisUrl":"redis://127.0.0.1:6379","service":"trafficbot","timestamp":"2026-04-27T15:26:21.175Z"}
+{"level":"info","message":"Role: BOTH - Redis unavailable, falling back to local sequential execution","service":"trafficbot","timestamp":"2026-04-27T15:26:21.177Z"}
+{"id":"local-0","level":"info","message":"🚀 STARTING MISSION: Ninja SEO Strategy","service":"trafficbot","timestamp":"2026-04-27T15:26:21.179Z"}
+{"level":"info","message":"⏳ Waiting for 3967ms to randomize startup...","service":"trafficbot","timestamp":"2026-04-27T15:26:21.179Z"}
+{"level":"info","message":"🔍 Mencari proxy dari ProxyGather...","service":"trafficbot","timestamp":"2026-04-27T15:26:25.161Z"}
+{"level":"info","message":"🔌 Proxy dari ProxyGather","proxy":"http://101.132.222.120:80","service":"trafficbot","timestamp":"2026-04-27T15:26:25.358Z"}
+{"level":"info","message":"Direct mode: navigating to https://qr.ptsuparmatbk.com/blog/","service":"trafficbot","timestamp":"2026-04-27T15:26:26.012Z"}
+{"error":"net::ERR_TUNNEL_CONNECTION_FAILED at https://qr.ptsuparmatbk.com/blog/","level":"error","message":"❌ Mission Failed","service":"trafficbot","timestamp":"2026-04-27T15:26:26.835Z"}
+{"env":"production","level":"info","message":"Initializing Veneno Traffic Bot v2 (Distributed)","redis":"redis://127.0.0.1:6379","role":"both","service":"trafficbot","timestamp":"2026-04-27T15:33:20.959Z"}
+{"level":"info","message":"QueueService initialized (Distributed mode potential)","redisUrl":"redis://127.0.0.1:6379","service":"trafficbot","timestamp":"2026-04-27T15:33:20.965Z"}
+{"level":"info","message":"Role: BOTH - Redis unavailable, falling back to local sequential execution","service":"trafficbot","timestamp":"2026-04-27T15:33:20.968Z"}
+{"id":"local-0","level":"info","message":"🚀 STARTING MISSION: Ninja SEO Strategy","service":"trafficbot","timestamp":"2026-04-27T15:33:20.969Z"}
+{"level":"info","message":"⏳ Waiting for 7881ms to randomize startup...","service":"trafficbot","timestamp":"2026-04-27T15:33:20.970Z"}
+{"level":"info","message":"Mencoba proxy [percobaan 1/5]: http://101.132.222.120:80","service":"trafficbot","timestamp":"2026-04-27T15:33:30.216Z"}
+{"level":"info","message":"Browser berhasil diluncurkan.","service":"trafficbot","timestamp":"2026-04-27T15:33:30.984Z"}
+{"level":"info","message":"Direct mode: navigating to https://qr.ptsuparmatbk.com/blog/","service":"trafficbot","timestamp":"2026-04-27T15:33:31.033Z"}
+{"error":"net::ERR_TUNNEL_CONNECTION_FAILED at https://qr.ptsuparmatbk.com/blog/","level":"error","message":"❌ Mission Failed","service":"trafficbot","timestamp":"2026-04-27T15:33:31.879Z"}
+{"env":"production","level":"info","message":"Initializing Veneno Traffic Bot v2 (Distributed)","redis":"redis://127.0.0.1:6379","role":"both","service":"trafficbot","timestamp":"2026-04-27T15:34:52.445Z"}
+{"level":"info","message":"QueueService initialized (Distributed mode potential)","redisUrl":"redis://127.0.0.1:6379","service":"trafficbot","timestamp":"2026-04-27T15:34:52.449Z"}
+{"level":"info","message":"Role: BOTH - Redis unavailable, falling back to local sequential execution","service":"trafficbot","timestamp":"2026-04-27T15:34:52.452Z"}
+{"id":"local-0","level":"info","message":"🚀 STARTING MISSION: Ninja SEO Strategy","service":"trafficbot","timestamp":"2026-04-27T15:34:52.453Z"}
+{"level":"info","message":"⏳ Waiting for 9238ms to randomize startup...","service":"trafficbot","timestamp":"2026-04-27T15:34:52.453Z"}
+{"level":"info","message":"Mencoba proxy [percobaan 1/5]: http://101.132.222.120:80","service":"trafficbot","timestamp":"2026-04-27T15:35:01.909Z"}
+{"level":"info","message":"Browser berhasil diluncurkan.","service":"trafficbot","timestamp":"2026-04-27T15:35:02.397Z"}
+{"level":"info","message":"Direct mode: navigating to https://qr.ptsuparmatbk.com/blog/","service":"trafficbot","timestamp":"2026-04-27T15:35:02.457Z"}
+{"error":"net::ERR_TUNNEL_CONNECTION_FAILED at https://qr.ptsuparmatbk.com/blog/","level":"error","message":"❌ Mission Failed","service":"trafficbot","timestamp":"2026-04-27T15:35:03.318Z"}
+{"env":"production","level":"info","message":"Initializing Veneno Traffic Bot v2 (Distributed)","redis":"redis://127.0.0.1:6379","role":"both","service":"trafficbot","timestamp":"2026-04-27T15:39:57.786Z"}
+{"level":"info","message":"QueueService initialized (Distributed mode potential)","redisUrl":"redis://127.0.0.1:6379","service":"trafficbot","timestamp":"2026-04-27T15:39:57.793Z"}
+{"level":"info","message":"Role: BOTH - Redis unavailable, falling back to local sequential execution","service":"trafficbot","timestamp":"2026-04-27T15:39:57.796Z"}
+{"id":"local-0","level":"info","message":"🚀 STARTING MISSION: Ninja SEO Strategy","service":"trafficbot","timestamp":"2026-04-27T15:39:57.802Z"}
+{"level":"info","message":"⏳ Waiting for 27813ms to randomize startup...","service":"trafficbot","timestamp":"2026-04-27T15:39:57.802Z"}
+{"level":"info","message":"Mencoba proxy [percobaan 1/15]: http://101.132.222.120:80","service":"trafficbot","timestamp":"2026-04-27T15:40:26.915Z"}
+{"level":"info","message":"Browser berhasil diluncurkan.","service":"trafficbot","timestamp":"2026-04-27T15:40:27.445Z"}
+{"level":"info","message":"Direct mode: navigating to https://example.com","service":"trafficbot","timestamp":"2026-04-27T15:40:27.481Z"}
+{"error":"net::ERR_TUNNEL_CONNECTION_FAILED at https://example.com","level":"error","message":"❌ Mission Failed","service":"trafficbot","timestamp":"2026-04-27T15:40:28.270Z"}
+{"env":"production","level":"info","message":"Initializing Veneno Traffic Bot v2 (Distributed)","redis":"redis://127.0.0.1:6379","role":"both","service":"trafficbot","timestamp":"2026-04-27T15:42:14.343Z"}
+{"level":"info","message":"QueueService initialized (Distributed mode potential)","redisUrl":"redis://127.0.0.1:6379","service":"trafficbot","timestamp":"2026-04-27T15:42:14.354Z"}
+{"level":"info","message":"Role: BOTH - Redis unavailable, falling back to local sequential execution","service":"trafficbot","timestamp":"2026-04-27T15:42:14.358Z"}
+{"id":"local-0","level":"info","message":"🚀 STARTING MISSION: Ninja SEO Strategy","service":"trafficbot","timestamp":"2026-04-27T15:42:14.360Z"}
+{"level":"info","message":"⏳ Waiting for 1142ms to randomize startup...","service":"trafficbot","timestamp":"2026-04-27T15:42:14.360Z"}
+{"level":"info","message":"Mencoba proxy [percobaan 1/15]: http://101.132.222.120:80","service":"trafficbot","timestamp":"2026-04-27T15:42:18.022Z"}
+{"level":"info","message":"Browser berhasil diluncurkan.","service":"trafficbot","timestamp":"2026-04-27T15:42:18.639Z"}
+{"level":"info","message":"Direct mode: navigating to https://example.com","service":"trafficbot","timestamp":"2026-04-27T15:42:18.684Z"}
+{"error":"net::ERR_TUNNEL_CONNECTION_FAILED at https://example.com","level":"error","message":"❌ Mission Failed","service":"trafficbot","timestamp":"2026-04-27T15:42:19.524Z"}

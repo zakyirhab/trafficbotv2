@@ -1,5 +1,6 @@
 import fs from 'fs';
 import path from 'path';
+import { DeviceProfile } from '../../core/DeviceProfile';
 
 interface UserAgentEntry {
   ua: string;
@@ -10,6 +11,27 @@ interface UserAgentEntry {
 export class UserAgentService {
   private static UA_DIR = path.join(process.cwd(), 'useragent');
   private static cache: Record<string, UserAgentEntry[]> = {};
+  private profile: DeviceProfile | null = null;
+
+  /**
+   * Set the device profile for this service.
+   * If set, getUserAgent will return the profile's user agent.
+   */
+  setProfile(profile: DeviceProfile): void {
+    this.profile = profile;
+  }
+
+  /**
+   * Get the user agent for this service.
+   * If a profile is set, returns the profile's user agent.
+   * Otherwise, returns a random user agent.
+   */
+  getUserAgent(): string {
+    if (this.profile) {
+      return this.profile.userAgent;
+    }
+    return UserAgentService.getRandomUA('most-common').ua;
+  }
 
   /**
    * Gets a random User-Agent, optionally filtered by type and platform.
